@@ -1,6 +1,9 @@
 {
   "name": "kdev",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.11.0"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
