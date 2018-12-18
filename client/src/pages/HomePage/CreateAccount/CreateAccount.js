@@ -82,12 +82,12 @@ export default class Login extends Component{
                   </div>
 
                   <div className  ="form-group">
-                      <button 
+                      {/* <button 
                         type="button" 
                         className="btn btn-block btn-sm signin-btn"
                         name="DoctorLogin"
                         onClick={this.handleFormSubmit}>I am a Doctor
-                      </button>
+                      </button> */}
 
                       <button 
                         type="submit" 
