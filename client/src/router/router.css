@@ -1,0 +1,14 @@
+.view-container {
+  background-color: var(--light-grey);
+  color: var(--dark-grey);
+  min-width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.view-content {
+  height: 100vh;
+  padding: 3vh 3vw;
+  overflow: scroll;
+}

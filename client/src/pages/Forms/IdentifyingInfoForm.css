@@ -1,0 +1,14 @@
+.form-section-header {
+  text-align: left;
+  margin-bottom: .2em;
+}
+
+.section-header-underline {
+  margin-top: 0;
+  border: none;
+  border-bottom:2px solid black;
+}
+
+.form-section {
+  margin: 2em 0;
+}

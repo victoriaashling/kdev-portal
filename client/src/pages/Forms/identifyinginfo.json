@@ -1,0 +1,57 @@
+{
+  "header": {
+    "title": "Identifying Information",
+    "subtext": "Please fill out the information below to begin building your patient profile."
+  },
+  "sections": [
+    { "sectionheader": "Name",
+      "rows": [
+        {"cols": [
+          { "size": "md-4", "fieldName": "lastName", "label": "Last Name", "required": "true" },
+          { "size": "md-2", "fieldName": "midInit", "label": "Mid Init" },
+          { "size": "md-4", "fieldName": "firstName", "label": "First Name", "required": "true" },
+          { "size": "md-2", "fieldName": "suffixPrefix", "label": "Suffix/Prefix" }
+        ]}
+      ]
+    },
+    { "sectionheader": "Address",
+      "rows": [
+        {"cols": [
+          { "size": "md-6", "fieldName": "streetAddress", "label": "Street Address", "required": "true" },
+          { "size": "md-6", "fieldName": "addressLine2", "label": "Address Line 2" }
+        ]},
+        {"cols": [
+          { "size": "md-6", "fieldName": "city", "label": "City", "required": "true" },
+          { "size": "md-2 sm-3", "fieldName": "state", "label": "State", "format": "XX", "required": "true" },
+          { "size": "md-4 sm-3", "fieldName": "zipCode", "label": "Zip Code", "required": "true" }
+        ]}
+      ]
+    },
+    { "sectionheader": "Other",
+      "rows": [
+        {"cols": [
+          { "size": "md-4", "fieldName": "phoneNumber", "label": "Phone Number", "format": "xxx-xxx-xxxx", "required": "true" },
+          { "size": "md-4", "fieldName": "dateofBirth", "label": "Date of Birth", "format": "MM/DD/YYYY", "required": "true" },
+          { "size": "md-4", "fieldName": "socialSecurityNumber", "label": "Social Security Number", "format": "xxx-xx-xxxx", "required": "true" }
+        ]},
+        {"cols": [
+          { "size": "md-4", "fieldName": "sex", "label": "Sex", "required": "true" },
+          { "size": "md-8", "fieldName": "maritalStatus", "label": "Marital Status", "required": "true" }
+        ]},
+        {"cols": [
+          { "size": "md-6", "fieldName": "race", "label": "Race", "required": "true" },
+          { "size": "md-6", "fieldName": "ethnicity", "label": "Ethnicity", "required": "true" }
+        ]}
+      ]
+    },
+    { "sectionheader": "Emergency Contact",
+      "rows": [
+        {"cols": [
+          { "size": "md-4", "fieldName": "contactName", "label": "Contact Name", "required": "true" },
+          { "size": "md-4", "fieldName": "contactRelationship", "label": "Contact Relationship", "required": "true" },
+          { "size": "md-4", "fieldName": "contactPhoneNumber", "label": "Contact Phone Number", "required": "true" }
+        ]}
+      ]
+    }
+  ]
+}

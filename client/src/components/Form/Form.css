@@ -1,0 +1,24 @@
+.form-btn {
+  background-color: transparent;
+  border: solid var(--dark-grey) 2px;
+  color: var(--dark-grey);
+  padding: .5rem 1em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 4px 2px;
+  cursor: grab;
+  border-radius: 5px;
+}
+
+.form-btn:hover {
+  background-color: var(--mint-green);
+  border: solid var(--mint-green) 2px;
+  color: var(--light-grey);
+}
+
+.edit-btn {
+  background-color: var(--mint-green);
+  color: white;
+  border: none;
+}

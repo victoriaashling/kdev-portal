@@ -1,0 +1,14 @@
+.container{
+  font-family: Garamond
+}
+
+.yellow-back{
+  padding: 2em;
+  margin-bottom: 2em;
+  border-radius: 5px;
+  background-color: #FBF1B5 !important;
+}
+
+#messages-container {
+  text-align: center;
+}

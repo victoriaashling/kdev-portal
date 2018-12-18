@@ -1,0 +1,55 @@
+.side-container {
+  background-color: var(--dark-grey);
+  color: var(--light-grey);
+  box-shadow: 5px 0 40px rgb(60, 60, 60), 1px 0 5px rgb(40, 40, 40);
+  height: 100vh;
+}
+
+.menu-item .fas {
+  font-size: 1.5em;
+  padding-bottom: .4em;
+}
+
+.fa-heart {
+  font-size: 1em;
+}
+
+.menu-header, .menu-footer {
+  color: var(--mint-green);
+  font-weight: 900;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.menu-header {
+  height: 150px;
+  padding: 50px 0;
+  font-size: 2em;
+}
+
+.menu-footer {
+  width: 150px;
+  position: fixed;
+  bottom: 1em;
+}
+
+.menu-item {
+  box-sizing: border-box;
+  height: 100px;
+  padding-top: calc(50px - .5em);
+  text-align: center;
+}
+
+.menu-link {
+  color: var(--light-grey);
+}
+
+.menu-link:hover {
+  color: var(--mint-green);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.menu-active {
+  color: var(--mint-green);
+}

@@ -1,0 +1,48 @@
+#signin-container{
+  height: 100vh;
+  align-content: center;
+  background-color: transparent;
+}
+
+.card {
+  margin-top: calc(50vh - 185px);
+  height: 370px;
+  width: 400px;
+  background-color: rgba(40,40,40,0.9) !important;
+}
+
+.card-header h3 {
+  color: var(--light-grey);
+  text-align: center;
+}
+
+.card-header {
+  border-bottom: 1px white solid;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.input-group-prepend span {
+  width: 40px;
+  background-color: var(--mint-green);
+  color: var(--light-grey);
+  border:0 !important;
+}
+
+.signin-btn {
+  background-color: #d8d8d8;
+  color: var(--dark-grey);
+  font-size: 1.2em;
+}
+
+.signin-btn:hover {
+  background-color: var(--mint-green);
+}
+
+#links {
+  color: var(--light-grey);
+}
+
+#signup-link {
+  color: var(--mint-green);
+}
